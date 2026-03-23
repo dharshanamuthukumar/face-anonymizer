@@ -1,3 +1,44 @@
-[project]
-name = "face-anonymizer"
-version = "0.1.0"
+# Face Anonymizer Project 🎭
+
+## 📌 Overview
+This project is a real-time face anonymization system that uses a webcam to detect human faces and blur them automatically.
+
+It is useful for:
+- Privacy protection
+- Surveillance systems
+- Video conferencing masking
+- Data anonymization
+
+---
+
+## ⚙️ Technologies Used
+- Python
+- OpenCV (cv2)
+- Haar Cascade Classifier
+
+---
+
+## 🚀 Features
+- Real-time webcam capture
+- Face detection using pre-trained model
+- Automatic face blurring
+- Simple and lightweight
+
+---
+
+## 🧠 How It Works
+1. Webcam captures live video frames
+2. Each frame is converted to grayscale
+3. Haar Cascade detects faces
+4. Detected face regions are extracted
+5. Gaussian blur is applied
+6. Blurred face is placed back into frame
+7. Output is displayed live
+
+---
+
+## ▶️ How to Run
+
+### 1. Install dependencies
+```bash
+pip install opencv-python
